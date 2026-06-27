@@ -34,7 +34,7 @@
 #else:
     #print('Odd')
 
-# Write a fro loop for the value 1- 152
+# Write a for loop for the value 1- 152
 # numebrs =[1,2,3,4,...]
 #for number in range(1,153):
     #print(number)
@@ -61,9 +61,9 @@ for number in range(1,428):
     total += number
 print(f'Your total in: {total}')
 
-#update if statement  to while loop so thta users can have multiple attempts
+#update if statement  to while loop so that users can have multiple attempts
 
-password = 'Mafe'
+password = 'Hello'
 userLoginInput = input('Enter password: ') 
 
 while userLoginInput != password:
